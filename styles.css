@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.main{
+	width:500px;
+	height:200px;
+	border-radius:50px;
+	border:5px solid black;
+	background-color:lightgray;
+}
+.dot{
+	height: 100px;
+  width: 100px;
+	margin:20px;
+	padding:5px;
+  border-radius: 50%;
+  display: inline-block;
+	justify-content:space-around;
+}
+span:first-child{
+	background-color:green;
+}
+span:nth-child(2){
+	background-color:yellow;
+}
+span:last-child{
+	background-color:red;
+}
